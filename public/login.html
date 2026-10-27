@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieShelf | Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="page">
+        <header class="brand">
+            <h1 class="brand-name">Movie<span>Shelf</span></h1>
+            <p class="tagline">Every great movie night starts here.</p>
+        </header>
+
+        <section class="card">
+            <h2>Welcome back</h2>
+            <p class="description">
+                Sign in to continue your movie journey.
+            </p>
+
+            <form action="/login" method="POST">
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username"
+                           placeholder="Enter your username" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password"
+                           placeholder="Enter your password" required>
+                </div>
+
+                <input type="submit" value="Login">
+            </form>
+
+            <p class="footer-text">
+                New to MovieShelf?
+                <a href="register.html">Create an account</a>
+            </p>
+
+            <p class="back-link">
+                <a href="login.html">Back to Login</a>
+            </p>
+        </section>
+    </main>
+</body>
+</html>

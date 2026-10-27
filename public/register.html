@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieShelf | Register</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="page">
+        <header class="brand">
+            <h1 class="brand-name">Movie<span>Shelf</span></h1>
+            <p class="tagline">Your next favorite story starts here.</p>
+        </header>
+
+        <section class="card">
+            <h2>Create your account</h2>
+            <p class="description">
+                Join MovieShelf and start building your personal movie collection.
+            </p>
+
+            <form action="/register" method="POST">
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username"
+                           placeholder="Choose a username" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email"
+                           placeholder="you@example.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password"
+                           placeholder="Create a password" required>
+                </div>
+
+                <input type="submit" value="Create Account">
+            </form>
+
+            <p class="footer-text">
+                Already have an account?
+                <a href="login.html">Login here</a>
+            </p>
+        </section>
+    </main>
+</body>
+</html>
